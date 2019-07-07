@@ -41,11 +41,31 @@
 
     /* Your code starts here */
     /* CODE AREA */
-    .container {}
+    .body{
+      justify-content: flex-start;
+    }
+    .container {
+      display: flex;
+      align-items: stretch;
+    }
 
-    .content {}
+    .content {
+      order: 1;
+/*      height: 100%;
+      width: 50%;*/
+      align-self: stretch;
+    }
 
-    .leftbar {}
+    .leftbar {
+      order: 0;
+/*      height: 100%;
+      width: 25%;*/
+    }
+    .rightbar {
+      order: 2;
+/*      height: 100%;
+      width: 25%;*/
+    }
 
     /* END CODE AREA */
   </style>
